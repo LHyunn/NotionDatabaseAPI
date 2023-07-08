@@ -13,7 +13,7 @@ notion_db = NotionDatabase(database_id, notion_key)
 
 위 코드에서 <데이터베이스 ID>와 <노션 API 키>는 실제 노션 데이터베이스의 ID와 노션 API 키로 대체되어야 합니다. 또한, 데이터베이스에 API Bot이 추가되어있어야 합니다. 자세한 내용은 https://www.notion.so/ko-kr/help/category/import-export-and-integrate 를 참고하세요.
 
->데이터베이스 ID는 데이터베이스의 주소 : https://www.notion.so/dns05018/a?v=b 에서 a의 위치에 존재합니다.
+>데이터베이스 ID는 데이터베이스의 주소 : https://www.notion.so/id/a?v=b 에서 a의 위치에 존재합니다.
 
 ![title](https://user-images.githubusercontent.com/74236661/252056154-c250bf71-3010-46f0-b0a5-55027a928d05.png) 
 

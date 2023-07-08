@@ -13,7 +13,7 @@ notion_db = NotionDatabase(database_id, notion_key)
 
 위 코드에서 <데이터베이스 ID>와 <노션 API 키>는 실제 노션 데이터베이스의 ID와 노션 API 키로 대체되어야 합니다. 또한, 데이터베이스에 API Bot이 추가되어있어야 합니다. 자세한 내용은 https://www.notion.so/ko-kr/help/category/import-export-and-integrate 를 참고하세요.
 
-![title](https://user-images.githubusercontent.com/74236661/252056147-66d3fdc7-6bc5-4212-b312-30b0213dc471.png)
+![title](https://user-images.githubusercontent.com/74236661/252056154-c250bf71-3010-46f0-b0a5-55027a928d05.png) 
 
 print_property_dict 메서드를 사용하여 노션 데이터베이스의 프로퍼티를 가져옵니다. 
 
@@ -87,6 +87,5 @@ notion_db.upload_page_values(page_values)
 
 page_values 딕셔너리의 키와 값을 업로드하려는 데이터에 맞게 수정해야 합니다.
 
-![title](https://user-images.githubusercontent.com/74236661/252056154-c250bf71-3010-46f0-b0a5-55027a928d05.png) 
-
+![title](https://user-images.githubusercontent.com/74236661/252056147-66d3fdc7-6bc5-4212-b312-30b0213dc471.png)
 

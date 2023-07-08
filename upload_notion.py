@@ -84,7 +84,7 @@ class NotionDatabase():
     
     def upload_page_values(self, page_values):
         for property_key, property_value in page_values.items():
-            if property_key == "formula":
+            if property_key == "formula" or property_key == "created_date":
                 continue
             if property_key not in self.property_dict.keys():
                 raise KeyError("property_key가 property_dict의 key에 없습니다.")

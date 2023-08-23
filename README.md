@@ -54,7 +54,7 @@ notion_db.print_property_dict()
 
 
 ```python
-DATE = ntdb.transform_date("20230101000000")
+DATE = notion_db.transform_date("20230101000000")
 # 2023-01-01T00:00:00.000+09:00
 ```
 

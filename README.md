@@ -19,6 +19,8 @@ notion_db = NotionDatabase(database_id, notion_key)
 
 print_property_dict 메서드를 사용하여 노션 데이터베이스의 프로퍼티를 가져옵니다. 
 
+> 아래의 데이터베이스 페이지와 프로퍼티는 제가 작성한 페이지 기준입니다. 사용자가 원하는 데이터베이스를 구성한 후 해당 데이터베이스의 프로퍼티에 맞게 수정하셔야 합니다.
+
 
 ```python
 notion_db.print_property_dict()
